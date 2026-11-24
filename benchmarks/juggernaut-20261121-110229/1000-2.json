@@ -1,0 +1,12 @@
+{
+  "mode":"barrage","status":"finished",
+  "target_rps":1000,"duration_s":10,"workers":2,"connections":32,"timeout_ms":2000,
+  "elapsed_s":10.000000,"planned":10000,"admitted":10000,"emitted":10000,"completed":10000,
+  "missed_schedule":0,"pool_full":0,"cancelled":0,
+  "emitted_rps":1000.000,"completed_rps":1000.000,
+  "http_errors":0,"transport_errors":0,"timeouts":0,
+  "new_connections":100,"body_bytes":610000,"http":{"200":10000},
+  "service_us": {"n":10000,"min":399,"mean":800.64,"max":5887,"stddev":271.65,"p50":782,"p90":947,"p95":991,"p99":2155,"p99.9":4151},
+  "scheduled_us": {"n":10000,"min":407,"mean":814.08,"max":5899,"stddev":276.85,"p50":794,"p90":962,"p95":1008,"p99":2227,"p99.9":4187},
+  "scheduler_lag_us": {"n":10000,"min":4,"mean":12.94,"max":337,"stddev":9.88,"p50":12,"p90":16,"p95":20,"p99":47,"p99.9":127}
+}
