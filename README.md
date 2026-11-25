@@ -1,5 +1,7 @@
 # SIEGEBREAKER
 
+<img src="assets/siegebreaker-duck.png" width="200" alt="A rubber duck wearing a colander as a helmet and holding a stopwatch in its beak.">
+
 SIEGEBREAKER is a C11 command-line tool for running constant-rate HTTP/1.1 load tests against a local service on Linux. Give it a GET endpoint, a request rate and a duration. It writes a JSON report showing how much traffic the client scheduled, how much it sent, how many responses it received and how long they took.
 
 ## Why this project exists
